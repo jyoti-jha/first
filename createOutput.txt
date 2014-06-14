@@ -1,4 +1,4 @@
-Querytype:create
+querytype:create
 Tablename:REGISTERED
 Attributes:ROLLNO INTEGER,SUBJECTID INTEGER,MARKS FLOAT
 Querytype:create
