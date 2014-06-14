@@ -1,0 +1,48 @@
+Querytype:SELECT
+Tablename:COURSES
+Columns:SUBJECTID,SUBJECTNAME,CREDITS,PROFNAME
+Distinct:NA
+Condition:NA
+Orderby:NA
+Groupby:NA
+Having:NA
+Querytype:SELECT
+Tablename:REGISTERED,STUDENTS
+Columns:REGISTERED.ROLLNO,MARKS,FIRSTNAME
+Distinct:NA
+Condition:REGISTERED.ROLLNO = STUDENTS.ROLLNO AND PROGRAMID=5
+Orderby:NA
+Groupby:NA
+Having:NA
+Querytype:SELECT
+Tablename:STUDENTS
+Columns:ROLLNO,PROGRAMID
+Distinct:NA
+Condition:FIRSTNAME LIKE 'RAMYA'
+Orderby:NA
+Groupby:NA
+Having:NA
+Querytype:SELECT
+Tablename:REGISTERED
+Columns:ROLLNO
+Distinct:ROLLNO
+Condition:MARKS > 34.0
+Orderby:NA
+Groupby:NA
+Having:NA
+Querytype:SELECT
+Tablename:REGISTERED
+Columns:SUBJECTID
+Distinct:NA
+Condition:NA
+Orderby:NA
+Groupby:SUBJECTID
+Having:NA
+Querytype:SELECT
+Tablename:REGISTERED
+Columns:SUBJECTID
+Distinct:NA
+Condition:NA
+Orderby:SUBJECTID
+Groupby:SUBJECTID
+Having:SUBJECTID <= 10
